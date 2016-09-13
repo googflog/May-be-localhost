@@ -1,0 +1,44 @@
+#localdesuka {
+    position: fixed;
+    display: inline-block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    color: white !important;
+    z-index: 9999;
+    font-size: 11px !important;
+    font-family: sans-serif !important;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px 0px;
+    bottom: 0;
+    right: 0;
+    letter-spacing: 0.1em;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#localdesuka * {
+    -webkit-user-select: none;
+}
+
+#localdesuka p {
+    padding: 0.5em 6em 0.5em 6em;
+    background: rgb(235, 97, 0);
+    border-left: solid 1px rgb(255, 152, 79);
+    float: left;
+}
+
+#localdesuka .close {
+    padding-right: 0.2em;
+    display: block;
+    float: left;
+    padding: 0.5em 0.7em;
+    cursor: pointer;
+    background: #eb6100;
+}
+
+#localdesuka .close:hover {
+    color: #eb6100;
+    background: white;
+}

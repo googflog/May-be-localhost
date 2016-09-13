@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "css": [ "css/localdesuka.css" ],
+      "js": [ "js/jquery.js", "js/contentscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "ローカルを参照しているかもしれない場合に表示を出します。",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Localかもです？",
+   "version": "0.13"
+}
